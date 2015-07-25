@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+
 .intro-text {
 	margin-top: 100px;
 	text-align: center;
@@ -9,6 +11,7 @@
 
 body {
   padding-bottom: 40px;
+  font-family: "Lato";
   /*color: #5a5a5a;*/
 }
 
@@ -17,6 +20,10 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar {
+	background-color: #841138;
+}
+
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -36,6 +43,14 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #222;
+}
+
+.navbar-default .navbar-brand {
+  color: #841138;
 }
 
 
