@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title>Nashville International FC</title>
+			<meta name="viewport" content="width=device-width">
+			<meta name="description" content="Nashville International Futbol Club">
+
+			<!-- Custom Fonts -->
+			<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+			<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+			<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+			<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+			<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+			<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+			<!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+			<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+			<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+			<link rel="stylesheet" href="css/style_old.css">
+			<link rel="stylesheet" href="css/style_nifc.css">
+		</head>
+
+
+
+<body id="page-top" class="index">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="index.html">Nashville International Futbol Club</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
+					<li>
+						<a class="page-scroll" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="about.html">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="teams.html">Teams</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="tryouts.html">Tryouts</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="sponsors.html">Sponsors</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="gallery.html">Gallery</a>
+					</li>
+					<li>
+						<a class="page-scroll selected" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="intro-text">
+				<div class="intro-lead-in"><h1>Drop us a line!</h1></div>
+			</div>
+		</div>
+	</header>
+
+
+
+	<!-- Contact start -->
+	<section id="contact">
+		<div class="container">
+			<div class="row margin-lg">
+				<h1 class="main-title text-center wow fadeIn">We'd like to hear from you</h1><br><br>
+				<div class="row">
+					<div class="col-lg-12">
+						<!--Validation messages start-->
+						<div class="alert alert-success hidden" id="contactSuccess">
+							<strong>Success!</strong> Your message has been sent to us.
+						</div>
+						<div class="alert alert-danger hidden" id="contactError">
+							<strong>Error!</strong> There was an error sending your message.
+						</div>
+						<!--Validation messages end-->
+						<!-- Contact form start -->
+						<form class="wow fadeInUp" id="contactForm" action="php/contact.php" method="POST">
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-6">
+										<label>Your name *</label>
+										<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+									</div>
+									<div class="col-md-6">
+										<label>Your email address *</label>
+										<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Subject</label>
+										<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Message *</label>
+										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<input type="submit" value="Send Message" class="btn btn-lg btn-primary" data-loading-text="Loading...">
+								</div>
+							</div>
+						</form>
+						<!-- Contact form end -->
+					</div>
+				</div>
+				<br><br>
+				<!--Social start-->
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+						<div class="social-box-container text-center">
+							<a href="#">
+								<div class="icon-box">
+									<i class="fa fa-envelope"></i>
+								</div>
+								<div class="social-text">
+									landob.websolutions@gmail.com
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+						<div class="social-box-container text-center">
+							<a href="#">
+								<div class="icon-box">
+									<i class="fa fa-phone"></i>
+								</div>
+								<div class="social-text">
+									(615) 290-3050
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+						<div class="social-box-container text-center">
+							<a href="#">
+								<div class="icon-box">
+									<i class="fa fa-map-marker"></i>
+								</div>
+								<div class="social-text">
+									Earth, TN
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!--Social end-->
+				<!--Footer start-->
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="copyright text-center">
+							© 2015, Lando B | Web Solutions. All Rights Reserved.
+						</div>
+					</div>
+				</div>
+				<!--Footer end-->
+			</div>
+		</div>
+	</section>
+	<!-- Contact end -->
+
+
+	  <!-- jQuery Version 1.11.0 -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/cbpAnimatedHeader.js"></script>
+
+	<!-- Contact Form JavaScript -->
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/contact_me.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="js/my.js"></script>
+
+	</body>
+</html>
