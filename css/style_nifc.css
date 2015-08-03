@@ -20,7 +20,7 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar {
+.navbar .navbar-default .navbar-brand {
 	background-color: #841138;
 }
 
