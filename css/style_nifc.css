@@ -53,6 +53,11 @@ body {
   color: #841138;
 }
 
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #888;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
