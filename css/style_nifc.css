@@ -54,7 +54,7 @@ body {
 }
 
 /* selected nav link */
-nav a.selected, nav a:hover {
+.navbar a.selected, .navbar a:hover {
   color: #888;
 }
 
