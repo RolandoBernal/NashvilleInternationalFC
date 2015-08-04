@@ -2,24 +2,92 @@
 <html ng-app="myApp">
 	<head>
 		<meta charset="utf-8">
-		<title>Book That Lesson</title>
+		<title>Nashville International FC</title>
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Nashville International Futbol Club">
+
+		<!-- Bower Installed files & Bootstrap Core CSS -->
 		<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 		<link rel='stylesheet' type='text/css' href='bower_components/font-awesome/css/font-awesome.min.css'>
-		<link rel="stylesheet" type='text/css' href="bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/jquery-ui.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/jquery-ui.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/jquery-ui.structure.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/jquery-ui.structure.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/jquery-ui.theme.min.css">
 		<link rel="stylesheet" type="text/css" href="bower_components/jquery-ui/jquery-ui.theme.css">
-		<link rel="stylesheet" type="text/css" href="css/wizard.css">
-		<link rel="stylesheet" type="text/css" href="css/schedule.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- Custom Fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style_old.css">
+		<link rel="stylesheet" href="css/style_nifc.css">
 
 	</head>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand page-scroll" href="index.html">Nashville International Futbol Club</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hidden">
+						<a href="#page-top"></a>
+					</li>
+					<li>
+						<a class="page-scroll selected" href="index.html">Home</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="about.html">About</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="teams.html">Teams</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="tryouts.html">Tryouts</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="sponsors.html">Sponsors</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="gallery.html">Gallery</a>
+					</li>
+					<li>
+						<a class="page-scroll" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
 	<body>
+
+
+
 
 		<div ng-view>
 
@@ -32,9 +100,8 @@
 	</body>
 
 
-<!-- Here is where others stuff is -->
+	<!-- Here is where others stuff is -->
 	<script src='bower_components/jquery/dist/jquery.min.js'></script>
-	<script type="text/javascript" src="js/jquery-ui.js"></script>
 	<script src='bower_components/bootstrap/dist/js/bootstrap.min.js'></script>
 	<script src="bower_components/angular/angular.js"></script>
 	<script src="bower_components/angular-route/angular-route.js"></script>
@@ -44,10 +111,27 @@
 	<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
 	<script src="bower_components/jquery-ui/jquery-ui.js"></script>
 
+	<!-- jQuery Version 1.11.0 -->
+	<script src="js/jquery.js"></script>
 
-	<script src="js/wizard.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
-<!-- Here is where my stuff starts -->
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/cbpAnimatedHeader.js"></script>
+
+	<!-- Contact Form JavaScript -->
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/contact_me.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="js/my.js"></script>
+
+
+	<!-- Custom JavaScript -->
 	<script src="js/app.js"></script>
 
 	<script src="js/controllers/mainController.js"></script>
