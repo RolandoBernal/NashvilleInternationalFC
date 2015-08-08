@@ -15,6 +15,38 @@ body {
   /*color: #5a5a5a;*/
 }
 
+body {
+    background-color: #F8F8F8;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/soccer_stadium.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    filter: Alpha(Opacity=90);
+}
+
+.left-margin,
+.right-margin {
+  width: 20%;
+}
+
+.center-div {
+  width: 70%;
+  background-color: rgba(110, 125, 137, 0.7);
+}
+
+.logo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 300px;
+
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */

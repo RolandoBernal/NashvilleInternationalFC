@@ -25,12 +25,27 @@
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="css/style_old.css">
+		<link rel="stylesheet" href="css/style_theme.css">
 		<link rel="stylesheet" href="css/style_nifc.css">
 
 	</head>
 
+	<!-- Logo -->
+
+	<div class="row">
+		<div class="col-lg-1 col-md-1 left-margin"></div>
+		<div class="col-lg-10 col-md-10 logo">
+			<img src="img/NIFC_logo_v3.png" alt="Nashville International Futbol Club" class="logo">
+		</div>
+		<div class="col-lg-1 col-md-1 right-margin"></div>
+
+	</div> <!-- row -->
+
+	<!-- END of Logo -->
+
 	<!-- Navigation -->
+	<div class="col-lg-1 col-md-1 left-margin"></div>
+	<div class="col-lg-10">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -72,24 +87,70 @@
 						<a class="page-scroll" href="/#/contact">Contact</a>
 					</li>
 				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
+			</div> <!-- navbar-collapse -->
+		</div> <!-- container-fluid -->
 	</nav>
+	</div> <!-- div nav -->
+
+	<div class="col-lg-1 right-margin"></div>
 
 	<body>
 
 
 
-
-		<div ng-view>
-
+	<div class="col-lg-1 left-margin"></div>
+	<div class="col-lg-10 center-div" ng-view>
 		<!-- HERE IS WHERE THE MAGIC HAPPENS -->
+	</div>
+	<div class="col-lg-1 right-margin"></div>
 
-		</div>
 
 
+
+		<!-- Footer -->
+		<footer>
+				<div class="container">
+						<div class="row">
+								<div class="col-lg-1 left-margin"></div>
+								<div class="col-lg-10 center-div">
+										<!-- Map -->
+										<section class="map bg_map">
+												<div></div>
+								        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+												<br />
+												<small>
+														<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+												</small>
+												</iframe>
+										</section>
+										<section>
+										<h3><strong>Nashville International Futbol Club</strong></h3>
+										<p>Nashville, TN</p>
+										<ul class="list-unstyled phone-email">
+												<li><i class="fa fa-phone fa-fw"></i> <a href="tel:615-123-4567" class="telephone">(615) 123-4567</a></li>
+												<li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:info@nashvilleinternationalfutbolclub.com">info@nashvilleinternationalfutbolclub.com</a>
+												</li>
+										</ul>
+										<br>
+										<ul class="list-inline social">
+												<li>
+														<a href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+												</li>
+												<li>
+														<a href="http://twitter.com/"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+												</li>
+												<li>
+														<a href="https://plus.google.com/"><i class="fa fa-google-plus fa-fw fa-3x"></i></a>
+												</li>
+										</ul>
+										<hr class="small">
+										<p class="text-muted">Copyright &copy; Nashville International Futbol Club 2015</p>
+										</section>
+								</div>
+								<div class="col-lg-1 right-margin"></div>
+						</div> <!-- row  -->
+				</div>
+		</footer>
 
 
 	</body>
@@ -117,17 +178,17 @@
 
 	<!-- Contact Form JavaScript -->
 	<script src="js/jqBootstrapValidation.js"></script>
-	<script src="js/contact_me.js"></script>
+	<script src="js/myscrips/contact_me.js"></script>
 
 	<!-- Custom Theme JavaScript -->
-	<script src="js/my.js"></script>
+	<script src="js/myscripts/my.js"></script>
 
 
 	<!-- Our Custom JavaScript -->
 	<script src="js/app.js"></script>
 
 	<script src="js/controllers/mainController.js"></script>
-	<script src="js/controllers/errorController.js"></script>
+<!-- 	// <script src="js/controllers/errorController.js"></script>
 	<script src="js/controllers/aboutController.js"></script>
 	<script src="js/controllers/contactController.js"></script>
 	<script src="js/controllers/galleryController.js"></script>
@@ -137,6 +198,6 @@
 	<script src="js/controllers/tryoutsController.js"></script>
 	<script src="js/controllers/authController.js"></script>
 	<script src="js/factories/authFactory.js"></script>
-	<script src="js/controllers/userController.js"></script>
+	<script src="js/controllers/userController.js"></script> -->
 
 </html>
