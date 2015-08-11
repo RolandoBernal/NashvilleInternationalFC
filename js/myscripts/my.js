@@ -29,3 +29,25 @@ $('div.modal').on('show.bs.modal', function() {
     }
   }
 });
+
+ jQuery(document).ready(function($) {
+/*------------------------------------------------------
+  Navigation Features
+-------------------------------------------------------*/
+
+  if ($(window).scrollTop()===0){
+      $('#main-navigation').removeClass('stuck');
+    }
+    else{
+      $('#main-navigation').addClass('stuck');
+    }
+
+    $(window).scroll(function(){
+      if ($(window).scrollTop()===0){
+        $('#main-navigation').removeClass('stuck');
+      }
+      else{
+        $('#main-navigation').addClass('stuck');
+      }
+    });
+});

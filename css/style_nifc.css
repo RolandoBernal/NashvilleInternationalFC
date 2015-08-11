@@ -1,18 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
-.intro-text {
-	margin-top: 100px;
-	text-align: center;
-}
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
-	padding-bottom: 40px;
+	padding-top: 70px;
+	padding-bottom: 0px;
 	font-family: "Lato";
-	/*color: #5a5a5a;*/
+	color: #dedede;
 }
 
 body {
@@ -21,7 +17,7 @@ body {
 		position: relative;
 		width: 100%;
 		height: 100%;
-		background: url(../img/soccer_stadium.jpg) no-repeat center center scroll;
+		background: url(../img/NouCamp.jpg) no-repeat center center scroll;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
@@ -29,25 +25,44 @@ body {
 		filter: Alpha(Opacity=90);
 }
 
-.left-margin,
-.right-margin {
-	width: 20%;
+/* PARALLAX effect: setting base styles to image containers for the callout section */
+
+.bg_body {
+  /* fix background */
+  background-attachment: fixed;
+  /* center it */
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
 }
 
 .center-div {
-	width: 70%;
-	background-color: rgba(110, 125, 137, 0.7);
+	width: 100%;
+	background-color: rgba(15, 42, 86, 0.5);
 }
 
 .logo {
 		margin-top: 20px;
 		margin-bottom: 20px;
+		margin-left: 30%;
+		margin-right: 30%;
 		width: 300px;
 		height: 300px;
 }
 
+.intro-text {
+	text-align: center;
+}
+
 .find-us {
 	text-align: center;
+}
+
+.col-lg-12 {
+	position: relative;
+  min-height: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 
 
@@ -55,8 +70,22 @@ body {
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar .navbar-default .navbar-brand {
-	background-color: #841138;
+.navbar,
+.navbar-brand,
+.collapse,
+.navbar-collapse {
+	color: #FEB71D;
+	/*#9C1737;*/
+	background-color: #0F2A56;
+	text-shadow: none;
+}
+
+.navbar {
+	font-size: 16px;
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 0px;
+	border: 1px solid transparent;
 }
 
 .navbar-wrapper {
@@ -72,25 +101,36 @@ body {
 	padding-right: 0;
 	padding-left: 0;
 }
-.navbar-wrapper .navbar {
+.navbar-wrapper,
+.navbar {
 	padding-right: 15px;
 	padding-left: 15px;
 }
-.navbar-wrapper .navbar .container {
+.navbar-wrapper,
+.navbar,
+.container {
 	width: auto;
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: #222;
-}
-
-.navbar-default .navbar-brand {
-	color: #841138;
+.navbar,
+.navbar-nav>li>a {
+	color: #FEB71D;
+	/*#9C1737;*/
+	background-color: #0F2A56;
 }
 
 /* selected nav link */
-.navbar a.selected, .navbar a:hover {
-	color: #888;
+/*.navbar a.selected,*/
+.navbar a:hover {
+	color: #FEB71D;
+	background-color: #0F2A56;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -156,6 +196,15 @@ body {
 }
 
 
+/* CONTACT US Form
+------------------------------------------*/
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -194,4 +243,48 @@ body {
 	.featurette-heading {
 		margin-top: 120px;
 	}
+}
+
+/* FOOTER CSS
+---------------------------------- */
+
+footer {
+    padding-top: 10px;
+}
+
+.social a,
+.phone-email a {
+    color: #dedede;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #55acee;
+    text-decoration: none;
+}
+
+
+.fa-linkedin:hover,
+.fa-linkedin:focus,
+.fa-linkedin:active {
+    color: #FFF;
+    background-color: #007bb6;
+    border-radius: 5px;
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus,
+.fa-twitter:active {
+    color: #FFF;
+    background-color: #55acee;
+    border-radius: 5px;
+}
+
+.fa-google-plus:hover,
+.fa-google-plus:focus,
+.fa-google-plus:active {
+    color: #FFF;
+    background-color: #dd4b39;
+    border-radius: 5px;
 }
