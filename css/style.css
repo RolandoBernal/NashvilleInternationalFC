@@ -8,7 +8,7 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #333;
+  color: #dedede;
 }
 
 .text-muted {
@@ -233,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
   .navbar-default {
-    padding: 25px 0;
+    padding: 0;
     border: 0;
     background-color: transparent;
     -webkit-transition: padding .3s;

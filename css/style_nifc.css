@@ -9,11 +9,10 @@ body {
 	color: #dedede;
   overflow-x: hidden;
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #333;
 }
 
 body {
-		background-color: #F8F8F8;
+		background-color: #0F2A56;
 		display: table;
 		position: relative;
 		width: 100%;
@@ -101,8 +100,8 @@ body {
 }
 .navbar-wrapper,
 .navbar {
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 .navbar-wrapper,
 .navbar,
