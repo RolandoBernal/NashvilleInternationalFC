@@ -71,7 +71,7 @@ body {
 .navbar-brand,
 .collapse,
 .navbar-collapse {
-	color: #FEB71D;
+	color: #fed136;
 	/*#9C1737;*/
 	background-color: #0F2A56;
 	text-shadow: none;
@@ -111,7 +111,7 @@ body {
 
 .navbar,
 .navbar-nav>li>a {
-	color: #FEB71D;
+	color: #fed136;
 	/*#9C1737;*/
 	background-color: #0F2A56;
 }
@@ -119,7 +119,7 @@ body {
 /* selected nav link */
 /*.navbar a.selected,*/
 .navbar a:hover {
-	color: #FEB71D;
+	color: #fed136;
 	background-color: #0F2A56;
 }
 
