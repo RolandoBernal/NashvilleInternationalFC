@@ -42,7 +42,7 @@ body {
 }
 
 .logo {
-		margin-top: 20px;
+		margin-top: 10px;
 		margin-bottom: 20px;
 		margin-left: 30%;
 		margin-right: 30%;
@@ -50,10 +50,7 @@ body {
 		height: 300px;
 }
 
-.intro-text {
-	text-align: center;
-}
-
+.intro-text,
 .find-us {
 	text-align: center;
 }
