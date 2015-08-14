@@ -668,8 +668,9 @@ aside.tools img {
   padding-top: 40px;
 }
 
-section#contact {
-  background-color: #222;
+section#contact,
+ section#tryouts {
+  background-color: rgba(15, 42, 86, 0.85);
   background-image: url(../img/map-image.png);
   background-position: center;
   background-repeat: no-repeat;
