@@ -90,7 +90,8 @@ section {
   padding: 2px 0;
 }
 
-#wrapper {
+#wrapper,
+#wrapper-footer {
 	width: 994px;
 	margin: 24px auto 0;
 	box-shadow: 0 0 12px rgba(0,0,0,0.2);
