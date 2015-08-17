@@ -177,4 +177,8 @@ section#contact .text-danger {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+.tryoutform{
+	margin-top: 25px;
+	text-align: center;
+}
 
