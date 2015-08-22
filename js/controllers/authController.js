@@ -1,4 +1,4 @@
-app.controller('AuthCtrl', ['$scope', '$location', 'Auth', function($scope, $location, Auth){
+app.controller('AuthCtrl',['$scope', '$location', 'Auth', function($scope, $location, Auth){
 
 	console.log("Auth Controller.");
 
@@ -25,3 +25,4 @@ app.controller('AuthCtrl', ['$scope', '$location', 'Auth', function($scope, $loc
 		});
 	};
 }]);
+
