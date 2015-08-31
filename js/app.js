@@ -9,7 +9,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when('/home', {templateUrl:'partials/home.html', controller:'HomeCtrl'})
     .when('/sponsors', {templateUrl:'partials/sponsors.html', controller:'SponsorsCtrl'})
     .when('/teams', {templateUrl:'partials/teams.html', controller:'TeamsCtrl'})
-    .when('/tryouts', {templateUrl:'partials/tryouts.html', controller:''})
+    .when('/tryouts', {templateUrl:'partials/tryouts.html', controller:'TryoutCtrl'})
     .otherwise('/404', {templateUrl: 'partials/404.html', controller: 'ErrCtrl'});
 }]);
 
