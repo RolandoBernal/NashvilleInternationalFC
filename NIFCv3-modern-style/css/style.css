@@ -32,7 +32,7 @@ a {
   -webkit-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   outline: none;
-	color:#FFF;
+	color:#222;
 }
 a:hover {
 	text-decoration: none;
@@ -297,6 +297,10 @@ a:hover {
 	border-radius:50%;
 }
 
+.logo-right {
+  float: right;
+}
+
 .text-center h2 {
 	margin-top:20px;
 	margin-bottom:20px;
@@ -315,7 +319,7 @@ a:hover {
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background: url(../images/partners/soccerStadium.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
