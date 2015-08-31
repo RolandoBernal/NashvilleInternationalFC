@@ -378,6 +378,11 @@ a:hover {
   color: #000;
 }
 
+.gallery-img {
+  width: 285px !important; 
+  height: 285px !important;
+}
+
 .contact-info{
   color:#000;
 }
