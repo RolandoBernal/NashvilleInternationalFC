@@ -4,7 +4,8 @@
 
   $('#button_id').click(function() {
    $('#form_id').show();//Form shows on button click
-
    });
-
+  $('#submit_id').click(function(){
+  	$('#form_id').hide();
+  })
  });
