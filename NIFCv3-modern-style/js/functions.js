@@ -41,6 +41,23 @@ jQuery(function($) {
 		});
 	});
 
+	// teams filter
+	$(window).load(function(){'use strict';
+		var $team_selectors = $('.team-filter >li>a');
+		var $team = $('.team-items');
+		$team.isotope({
+			itemSelector : '.team-item',
+			layoutMode : 'fitRows'
+		});
+		
+		$team_selectors.on('click', function(){
+			$team_selectors.removeClass('active');
+			$(this).addClass('active');
+			var selector = $(this).attr('data-filter');
+			$team.isotope({ filter: selector });
+			return false;
+		});
+	});
 
 	//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
