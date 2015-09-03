@@ -6,11 +6,11 @@ jQuery(function($) {
 			interval: 8000
 		});
 	});
-	
-	
+
+
 	//Initiat WOW JS
 	new WOW().init();
-	
+
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 100) {
 			$('.scrollup').fadeIn();
@@ -22,24 +22,6 @@ jQuery(function($) {
 			$("html, body").animate({ scrollTop: 0 }, 1000);
 				return false;
 		});
-	
-	// portfolio filter
-	$(window).load(function(){'use strict';
-		var $portfolio_selectors = $('.portfolio-filter >li>a');
-		var $portfolio = $('.portfolio-items');
-		$portfolio.isotope({
-			itemSelector : '.portfolio-item',
-			layoutMode : 'fitRows'
-		});
-		
-		$portfolio_selectors.on('click', function(){
-			$portfolio_selectors.removeClass('active');
-			$(this).addClass('active');
-			var selector = $(this).attr('data-filter');
-			$portfolio.isotope({ filter: selector });
-			return false;
-		});
-	});
 
 	// teams filter
 	$(window).load(function(){'use strict';
@@ -49,7 +31,7 @@ jQuery(function($) {
 			itemSelector : '.team-item',
 			layoutMode : 'fitRows'
 		});
-		
+
 		$team_selectors.on('click', function(){
 			$team_selectors.removeClass('active');
 			$(this).addClass('active');
@@ -62,5 +44,5 @@ jQuery(function($) {
 	//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});	
+	});
 });
