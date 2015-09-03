@@ -617,7 +617,8 @@ footer {
 
 .social a,
 .phone-email a,
-.phone-email p {
+.phone-email p,
+.phone-email h3 {
     color: #fed136;
     font-size: .75em;
 }
@@ -837,6 +838,10 @@ textarea#message{
   margin-top: 0;
   margin-bottom: 20px;
   text-align:center;
+}
+
+.nifc-contact {
+  margin-top: 75px;
 }
 
 .btn-lg:hover {
