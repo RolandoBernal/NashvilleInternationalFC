@@ -1,0 +1,70 @@
+  <!-- Blue bar after logo -->
+  <div  class="col-lg-12">
+  <nav id="main-navigation" class="navbar navbar-fixed-top">
+    <div class="container container-fluid">
+      <div class="intro-text">
+        <p class="blue-bar">DROP US A LINE!</p>
+      </div>
+    </div> <!-- container-fluid -->
+  </nav>
+  </div> <!-- Blue bar -->
+
+	<!-- Contact start -->
+	<section id="contact">
+		<div class="container">
+			<div class="row margin-lg">
+				<h1 class="main-title text-center wow fadeIn">We'd like to hear from you</h1><br><br>
+				<div class="row">
+					<div class="col-lg-12">
+						<!--Validation messages start-->
+						<div class="alert alert-success hidden" id="contactSuccess">
+							<strong>Success!</strong> Your message has been sent to us.
+						</div>
+						<div class="alert alert-danger hidden" id="contactError">
+							<strong>Error!</strong> There was an error sending your message.
+						</div>
+						<!--Validation messages end-->
+						<!-- Contact form start -->
+						<form class="wow fadeInUp" id="contactForm" action="php/contact.php" method="POST">
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-6">
+										<label>Your name *</label>
+										<input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" required>
+									</div>
+									<div class="col-md-6">
+										<label>Your email address *</label>
+										<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Subject</label>
+										<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="form-group">
+									<div class="col-md-12">
+										<label>Message *</label>
+										<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message" required></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 btn-to-right">
+									<input type="submit" value="Send Message" class="btn btn-lg btn-primary" data-loading-text="Loading...">
+								</div>
+							</div>
+						</form>
+						<!-- Contact form end -->
+					</div>
+				</div>
+				<br><br>
+			</div>
+		</div>
+	</section>
+	<!-- Contact end -->
