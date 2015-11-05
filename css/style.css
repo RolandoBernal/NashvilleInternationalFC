@@ -381,6 +381,22 @@ a:hover {
 	margin-top:50px;
 }
 
+.sponsors {
+  margin: 50px;
+  width: 150px !important;
+  height: 150px !important;
+  opacity: .7;
+}
+
+.sponsors:hover,
+.sponsors:focus,
+.sponsors:active {
+  opacity: 1;
+  margin: 45px;
+  width: 155px !important;
+  height: 155px !important;
+}
+
 #contacto-info{
   background: #fff url(../images/contact.png) no-repeat 90% 0;
   padding: 30px 0;
