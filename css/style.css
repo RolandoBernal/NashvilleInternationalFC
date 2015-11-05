@@ -38,6 +38,7 @@ a {
 a:hover {
 	text-decoration: none;
 	color:#eee;
+  cursor: pointer;
 	}
 
 .btn-primary {
